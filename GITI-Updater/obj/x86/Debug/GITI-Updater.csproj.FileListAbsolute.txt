@@ -1,0 +1,14 @@
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\bin\Debug\GITI-Updater.exe.manifest
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\bin\Debug\GITI-Updater.application
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\bin\Debug\GITI-Updater.exe
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\bin\Debug\GITI-Updater.pdb
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GITI-Updater.csproj.ResolveComReference.cache
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GITI-Updater.exe.manifest
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GITI-Updater.application
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GITI-Updater.exe
+C:\Users\straib01\Documents\Visual Studio 2010\Projects\GITI-Updater\GITI-Updater\obj\x86\Debug\GITI-Updater.pdb

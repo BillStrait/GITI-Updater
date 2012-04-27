@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="GITI-Updater.exe" version="1.0.0.1" publicKeyToken="8cd3771352af593b" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GITI-Updater" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="GITI-Updater.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GITI-Updater.exe" size="15872">
+      <assemblyIdentity name="GITI-Updater" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1KPtgqBlI5iqK0w/Q9dBNixx8qw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=SJM\straib01" issuerKeyHash="3ddc653660b9004417722869fc4d9a538206cbf4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qKQflkKJIm/Qkhby0HdTvVknWZ4=</DigestValue></Reference></SignedInfo><SignatureValue>rZa3+3UdRD0PZN2ZeMgi4R9NRsjptv5jkrj7QqG6WQ9gyWQtInLo6G0ZtLdkQpTZvvPJHOURuNUi2Ll4j566vYXAr5ELPegHD2gu09Hkd57LbkAbuWG8JZvMX+qCwIXIl/2k8xDfeeIelBSvBqHce4hbSZszRFYTq+tQS0osjTM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sV+D4YkQIdcq1wde8S+EAKdDVJg58l6vnCUCgiNtVSmI2PpCWvSgVzUow9DsbC4b7AEjMUss0CFWFoUoBmfYmv4KkobhdTDs5OnQQ8zJIk45HGhuxg9+0Cd5vzg3R/k/Vou2CjZ7U+Qn3n3ySQ75d9UfCwmk/3gx3kjB79XWN28=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9e592759bd5377d0f21692d06f228942961fa4a8" Description="" Url=""><as:assemblyIdentity name="GITI-Updater.exe" version="1.0.0.1" publicKeyToken="8cd3771352af593b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SJM\straib01</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cKSXEITffcO+7SrX8DNugvXjEuQ=</DigestValue></Reference></SignedInfo><SignatureValue>llVtCwDJ1FyJhXcfffGc6sws16cUhrV1LG5TDfuoBMe0ddmLWWv5KZ5oisxSvtWxKtMve5PEEAfxEvKWDhNd7xywNXEHHOq4HqVVNVMhGubs5jm8Z3ctJKn+4Uz9+5602F/vg9W18WzhEoH+1StmrF2L8pUV9J5Ec1R+HwiMVLQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sV+D4YkQIdcq1wde8S+EAKdDVJg58l6vnCUCgiNtVSmI2PpCWvSgVzUow9DsbC4b7AEjMUss0CFWFoUoBmfYmv4KkobhdTDs5OnQQ8zJIk45HGhuxg9+0Cd5vzg3R/k/Vou2CjZ7U+Qn3n3ySQ75d9UfCwmk/3gx3kjB79XWN28=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQRHzHm37FIZ5ANe0mNKi8XjANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAUwBKAE0AXABzAHQAcgBhAGkAYgAwADEwHhcNMTIwMzI3MTkxNjU4WhcNMTMwMzI4MDExNjU4WjAjMSEwHwYDVQQDHhgAUwBKAE0AXABzAHQAcgBhAGkAYgAwADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALFfg+GJECHXKtcHXvEvhACnQ1SYOfJer5wlAoIjbVUpiNj6Qlr0oFc1KMPQ7GwuG+wBIzFLLNAhVhaFKAZn2Jr+CpKG4XUw7OTp0EPMySJOORxobsYPftAneb84N0f5P1aLtgo2e1PkJ9598kkO+XfVHwsJpP94Md5Iwe/V1jdvAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEAt9bqFu0shVAPG83babHcARFYtMNlQu03raHc6SGh/dK3oYDLuvbymP8pH/hTgz8QHfn9UU0nqQe68TGXCgM6OFiKqt60/uB6hosttLQoUDVut1o2ikc9iZwOdT4gj+J8Sn1H5KMFqQxFsmj1nKhFQw/aZOxvs0mMNYY7D/PqY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
